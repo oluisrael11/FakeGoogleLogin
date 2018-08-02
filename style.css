@@ -114,6 +114,7 @@ border: none;
 -moz-transition: all 0.218s;
 -webkit-transition: all 0.218s;
 transition: all 0.218s;
+width: 100px;
 }
 
 
@@ -126,4 +127,30 @@ color: rgb(104, 145, 162);
 .forgot-password:active,
 .forgot-password:focus{
 color: rgb(12, 97, 33);
+}
+
+.center {
+    margin: auto;
+    width: 550px;
+    padding: 10px;
+    text-align: center;
+}
+
+.create-account {
+    margin: auto;
+    width: 500px;
+    padding: 5px;
+    text-align: left;
+}
+
+.btn-left {
+    margin: auto;
+    width: 48%;
+    float: left;
+}
+
+.btn-right {
+    margin: auto;
+    width: 20%;
+    float: right;
 }
